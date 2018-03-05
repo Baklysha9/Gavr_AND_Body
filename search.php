@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet">
   </head>
   <body>
-  	<div class="bod">
+  	
 
   		<header>
   			<div class="container-fluid head">
@@ -27,22 +27,9 @@
   				</div>
 			 </div>
   		</header>
+      <div class="row" style="background: white; margin-top: 30px;"> 
+        <div class="col-md-12">
 
-  		<section class="sect" >
-        <section>
-  		    <div class="container-fluid">
-            <div class="col-md-1"></div>
-            <div class="col-md-10">
-              <p class="title">Билеты на самолет</p>
-            </div>
-            <div class="col-md-1"></div>
-            </div>
-        </section>
-        <section>
-          <div class="container-fluid">
-            <div class="col-md-1"></div>
-            <div class="col-md-10 order">
-              <form> 
                 <label>Откуда
                 <input type="text" class="frm" name=""></label>
                 <label>Куда
@@ -53,16 +40,19 @@
                 <input type="date" class="frm" name=""></label>
                 <label>Количество
                 <input type="number" min="1" class="frm" name=""></label>
-              </form>
-              <div class="sub">
-                <a href="search.php"><input type="submit" class="subB" value="Поиск билетов"></a>	
-              </div>
-            </div>
-            <div class="col-md-1"></div>
-          </div>
-        </section>
-  		</section>
-  	</div>
+
+        </div>
+      </div>
+        <div class="row"> 
+        <div class="col-md-4"><div class="mysector">
+        <label for="">Категория</label>
+          <select name="" id="">
+            <option value="">One</option>
+            <option value="">Two</option>
+          </select>
+          </div></div>
+        <div class="col-md-8">  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium itaque iusto ullam quae ipsum nam quibusdam molestiae doloribus sit non quaerat, debitis incidunt deserunt, voluptatum sequi dolorum sint? Repellat, accusamus.   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae quaerat mollitia, saepe esse ex hic est quidem et natus, voluptas qui reiciendis non tempora dolor, laudantium eveniet dignissimos blanditiis ipsam!</div>
+        </div>
  	
  	<footer>
     <div class="container-fluid">
@@ -71,8 +61,8 @@
 
       </div>
       <div class="col-md-5 app">
-        <img src="images/app.png" width="150" class="play">
-        <img src="images/play.png" width="150" class="play">
+        <img src="images/app.png" class="play1">
+        <img src="images/play.png" class="play1">
       </div>
       <div class="col-md-1"></div>
     </div>

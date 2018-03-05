@@ -2,7 +2,7 @@
 	background-image: url(images/worldmap.png); 
 	background-repeat: no-repeat;
 	background-size: 100%;
-	padding-bottom: 15%;
+	padding-bottom: 12%;
 }
 
 .head{
@@ -11,30 +11,81 @@ margin-top: 1%;
 
 .login{
 color:white;
-background-color: #0998d2;
+background-color: #026fd2;
 border-radius: 5px;
 border: 0px;
+font-family: 'Jura', sans-serif;
+padding: 1% 5%;
+}
+a.login:hover{
+	color:white;
+	text-decoration: none;
+	background-color: ;
 }
 
 .title{
-	color: #0998d2;		
+	color: #026fd2;		
 	text-align: center;
 	font-size: 5em;
+font-family: 'Jura', sans-serif;
+	font-weight: bold;	
+	margin-bottom: 7%;
 }
 
 input.frm{
     display:block;
+font-family: 'Jura', sans-serif;
+    width:198px;
+    height:40px;
+    border: solid 1px black;
+    border-radius: 5px;
+    text-align: center;	
 }
 
 .sub{
-margin: auto;
+font-size: 3em;
+text-align: center;
+margin-top: 3%;
+font-family: 'Jura', sans-serif;
+}
+
+.subB{
+	background-color: #FF4F00;
+	border: none;
+	color: white;
+	padding: 1% 2%;
 }
 
 .sect{
-	margin-top: 12%;
+	margin-top: 6%;
+}
+
+.order{
+text-align: center;
+}
+
+.app{
+	text-align: right;
+	line-height: 100px;
+}
+
+.logo{
+text-align: right;
+}
+
+.play{
+	border-radius: 6px;
+	margin-left: 20px;	
+}
+
+label{
+	font-size:1.4em ;
+	text-align: left;
+font-family: 'Jura', sans-serif;
+
 }
 
 footer{
 	height: 100px;
-	background-color: #0998d2;
+	background-color: #026fd2;
 }

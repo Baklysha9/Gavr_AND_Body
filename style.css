@@ -1,67 +1,64 @@
-.bod{
-	background-image: url(images/worldmap.png); 
-	background-repeat: no-repeat;
-	background-size: 100%;
-	padding-bottom: 12%;
+*{
+	font-family: 'Jura', sans-serif;
 }
 
-.head{
-margin-top: 1%;
+body{
+	background-image: url(images/worldmaprz.png); 
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative;
+}
+
+header{
+	margin-top: 1%;
+	margin-bottom: 6%;
+}
+
+.lg{
+	text-align: right;
 }
 
 .login{
-color:white;
-background-color: #026fd2;
-border-radius: 5px;
-border: 0px;
-font-family: 'Jura', sans-serif;
-padding: 1% 5%;
+	/* font-size: 2em; */
+	color:white;
+	background-color: #026fd2;
 }
-a.login:hover{
+
+.login:hover{
 	color:white;
 	text-decoration: none;
-	background-color: ;
+	background-color: #2583d9;
 }
 
 .title{
 	color: #026fd2;		
 	text-align: center;
 	font-size: 5em;
-font-family: 'Jura', sans-serif;
 	font-weight: bold;	
 	margin-bottom: 7%;
 }
 
-input.frm{
-    display:block;
-font-family: 'Jura', sans-serif;
-    width:198px;
-    height:40px;
-    border: solid 1px black;
-    border-radius: 5px;
+.frm{
     text-align: center;	
 }
 
-.sub{
-font-size: 3em;
-text-align: center;
-margin-top: 3%;
-font-family: 'Jura', sans-serif;
-}
-
 .subB{
+	display: inline-block;
+	margin-top: 3%;
 	background-color: #FF4F00;
-	border: none;
 	color: white;
 	padding: 1% 2%;
+	font-size: 3em;
 }
 
-.sect{
-	margin-top: 6%;
+.subB:hover{
+	text-decoration: none;
+	color: white;
+	background-color: #fd611b;
 }
 
 .order{
-text-align: center;
+	text-align: center;
 }
 
 .app{
@@ -69,23 +66,79 @@ text-align: center;
 	line-height: 100px;
 }
 
+.app1{
+	line-height: 100px;
+}
+
 .logo{
-text-align: right;
+	text-align:left;
+}
+
+.play1{
+	border-radius: 6px;
+	margin-left: 20px;	
+	width: 160px;
 }
 
 .play{
-	border-radius: 6px;
-	margin-left: 20px;	
+	width: 55px;
+	margin-right: 25px;
 }
 
-label{
+.lbInd{
 	font-size:1.4em ;
 	text-align: left;
-font-family: 'Jura', sans-serif;
+}
 
+.lbSig{
+	font-size: 1.6em;	
+	text-align: left;
+}
+
+.frmSig{
+	display: block;
+	width: 500px;
+	height: 30px;
+}
+
+.subS{
+	background-color: #FF4F00;
+	color: white;
+	font-size: 1.5em;
+
+}
+
+.subS:hover{
+	text-decoration: none;
+	color: white;
+	background-color: #fd611b;
+}
+
+.form{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	top: 200%;
+	transform:translate(-50%,200%);
+}
+
+.logoSign{
+	margin-top: 1%;
+	text-align: center;
 }
 
 footer{
 	height: 100px;
 	background-color: #026fd2;
+	/*  margin-top: 11%; */
+}
+.okno-bileta {
+	width: 100%;
+	height: 200px;
+	border: 2px solid #026fd2;
+	margin-bottom: 20px;
+	margin-right: 0;
+	text-align: center;
+	background: #f1f1f1;
 }

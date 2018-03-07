@@ -28,7 +28,7 @@
 			 </div>
   		</header>
       <div class="row" style="background: white; margin-top: 30px;"> 
-        <div class="col-md-12">
+        <div class="col-md-12" style="height: 50px; padding-top: 10px; width: 100%;">
 
                 <label>Откуда
                 <input type="text" class="frm" name=""></label>
@@ -41,17 +41,65 @@
                 <label>Количество
                 <input type="number" min="1" class="frm" name=""></label>
 
+
         </div>
+        <div class="col-md-12" style="text-align: center; margin-bottom: 10px;"><img src="images/30.gif" alt=""></div>
+        
       </div>
         <div class="row"> 
-        <div class="col-md-4"><div class="mysector">
-        <label for="">Категория</label>
+        <div class="col-md-4" style="background: #f1f1f1; height: 450px; ">
+        <label style="padding: 30px;">Категория</label>
           <select name="" id="">
-            <option value="">One</option>
-            <option value="">Two</option>
+            <option value="">Категория 1</option>
+            <option value="">Категория 2</option>
+            <option value="">Категория 3</option>
           </select>
-          </div></div>
-        <div class="col-md-8">  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium itaque iusto ullam quae ipsum nam quibusdam molestiae doloribus sit non quaerat, debitis incidunt deserunt, voluptatum sequi dolorum sint? Repellat, accusamus.   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae quaerat mollitia, saepe esse ex hic est quidem et natus, voluptas qui reiciendis non tempora dolor, laudantium eveniet dignissimos blanditiis ipsam!</div>
+          <br>
+             <label style="padding: 30px; padding-top: 0px;">Категория</label>
+          <select name="" id="">
+            <option value="">Категория 1</option>
+            <option value="">Категория 2</option>
+            <option value="">Категория 3</option>
+          </select>
+          <br>
+          <label style="padding: 30px; padding-top: 0px;">Заголовок ползунка</label>
+          <input type="range" min="0" max="100" step="1" value="50" style="width: 80%; margin-left:10%;"> 
+            <br>
+           <form action="handler.php" style="padding: 30px">
+           <p><b>Какое у вас состояние разума?</b></p>
+           <p><input name="dzen" type="radio" value="nedzen"> Не дзен</p>
+           <p><input name="dzen" type="radio" value="dzen"> Дзен</p>
+           <p><input name="dzen" type="radio" value="pdzen" checked> Полный дзен</p>
+           <p><input type="submit" value="Выбрать" style="margin-left: 35%"></p>
+           </form> 
+
+          </div>
+        <div class="col-md-8" style="background: white;">
+          <div class="okno-bileta">
+            <h2>Заголовок</h2>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum repudiandae distinctio dolorem, odio iusto voluptates, blanditiis veritatis necessitatibus explicabo earum id, quas facilis architecto eligendi, illo molestiae ut nulla eius!</p>
+            <label for="">10000$</label>
+            <button >Заказать</button>
+          </div>
+          <div class="okno-bileta">
+            <h2>Заголовок</h2>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum repudiandae distinctio dolorem, odio iusto voluptates, blanditiis veritatis necessitatibus explicabo earum id, quas facilis architecto eligendi, illo molestiae ut nulla eius!</p>
+            <label for="">10000$</label>
+            <button >Заказать</button>
+          </div>
+          <div class="okno-bileta">
+            <h2>Заголовок</h2>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum repudiandae distinctio dolorem, odio iusto voluptates, blanditiis veritatis necessitatibus explicabo earum id, quas facilis architecto eligendi, illo molestiae ut nulla eius!</p>
+            <label for="">10000$</label>
+            <button >Заказать</button>
+          </div>
+          <div class="okno-bileta">
+            <h2>Заголовок</h2>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum repudiandae distinctio dolorem, odio iusto voluptates, blanditiis veritatis necessitatibus explicabo earum id, quas facilis architecto eligendi, illo molestiae ut nulla eius!</p>
+            <label for="">10000$</label>
+            <button >Заказать</button>
+          </div>
+        </div>
         </div>
  	
  	<footer>
@@ -61,8 +109,8 @@
 
       </div>
       <div class="col-md-5 app">
-        <img src="images/app.png" class="play1">
-        <img src="images/play.png" class="play1">
+        <img src="images/app.png" width="150" class="play1">
+        <img src="images/play.png" width="150" class="play1">
       </div>
       <div class="col-md-1"></div>
     </div>

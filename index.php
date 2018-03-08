@@ -13,8 +13,8 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet">
   </head>
-  <body>
-  	<div class="bod">
+  <body class="bod">
+  	<div > 
   		<header>
   			<div class="container-fluid">
           <div class="row">

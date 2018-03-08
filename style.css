@@ -2,7 +2,7 @@
 	font-family: 'Jura', sans-serif;
 }
 
-body{
+.bod{
 	background-image: url(images/worldmaprz.png); 
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -19,9 +19,10 @@ header{
 }
 
 .login{
-	/* font-size: 2em; */
+	font-size: 2em;
 	color:white;
 	background-color: #026fd2;
+	box-shadow: 0px 2px 5px grey;
 }
 
 .login:hover{
@@ -49,6 +50,7 @@ header{
 	color: white;
 	padding: 1% 2%;
 	font-size: 3em;
+	box-shadow: 0px 2px 10px grey;
 }
 
 .subB:hover{
@@ -130,15 +132,68 @@ header{
 
 footer{
 	height: 100px;
-	background-color: #026fd2;
-	/*  margin-top: 11%; */
+	background:linear-gradient(to left,#00519c,#0063bb);
+	margin-top: 11%;
 }
+
+.ft2{
+	margin-top: 2%;
+}
+
 .okno-bileta {
+	padding: 10px;
 	width: 100%;
-	height: 200px;
-	border: 2px solid #026fd2;
+	height: 260px;
 	margin-bottom: 20px;
-	margin-right: 0;
-	text-align: center;
 	background: #f1f1f1;
+	box-shadow: 0px 2px 10px grey;
+	border-radius: 5px;
+	text-align: left;
+	position: relative;
+}
+
+.nav{
+	box-shadow: 0px 2px 10px grey;
+	border-radius: 5px;
+	margin-right: 10px;
+	text-align: left;
+}
+	
+.okno-bileta > h2,p{
+	text-align: left;
+	text-align: justify;
+}
+
+.okno-bileta > h2{
+	font-size: 2.5em;
+}
+
+.orderBut{
+	letter-spacing: 3px;
+	color: white;
+	background-color: #fd611b;
+	border: none;
+	box-shadow: 0px 2px 10px grey;
+	font-weight: bold;
+	margin-right: 5px;
+	position: absolute;
+	top: 25%;
+	left: 15%;
+
+}
+
+.frm2{
+display: inline-block;
+}
+
+.dv{
+	width: 140px;
+	display: inline-block;
+}
+
+.hr1{
+width: 280px;
+height: 2px;
+border-radius: 50px;
+background-color: #3f3f3f;
 }

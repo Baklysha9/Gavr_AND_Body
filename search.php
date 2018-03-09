@@ -63,8 +63,8 @@
         <div class="row"> 
           <div class="col-md-1"></div>
         <div class="col-md-3 nav" style="background: #f1f1f1; height: 405px; position: relative; ">
+          <form action="handler.php">
           <div>
-            <form action="handler.php">
         <label style="padding:10px; font-size: 18px; text-align: left; color: #3f3f3f;">Способ оплаты</label>
           <select class="form-control" name="" id="" style="width: 160px;position: absolute; right: 20px;top:10px;">
             <option value="">По карте</option>
@@ -130,7 +130,7 @@
                 7 мар 2018, Ср
               </div>
               <div style="display: inline-block; ">
-                <p style="position: absolute; top: 15%; left: 43%;">Всего 1ч 50м</p>
+                <p style="position: absolute; top: 15%; left: 43%;color: #fd611b; letter-spacing: 1px;"><b>Всего 1ч 50м</b></p>
                 <div class="hr1" style="position: absolute;top: 25%;left: 25%;"></div>
               </div>
               <div style="display: inline-block;float: right;line-height: 5px;">
@@ -147,7 +147,7 @@
                 9 мар 2018, Пт
               </div>
               <div style="display: inline-block; ">
-                <p style="position: absolute; top: 65%; left: 43%;">Всего 1ч 50м</p>
+                <p style="position: absolute; top: 65%; left: 43%;color: #fd611b; letter-spacing: 1px;"><b>Всего 1ч 50м</b></p>
                 <div class="hr1" style="position: absolute;top: 75%;left: 25%;"></div>
               </div>
               <div style="display: inline-block;float: right;line-height: 5px;">
@@ -159,7 +159,7 @@
             </div>
            </div>
            <div style=" text-align: center; display:inline-block; width: 170px;  height: 240px; position: absolute; right: 0px; border-left: 1px solid #747474;">
-              <button class="btn orderBut" >Купить за<br><b>10000$</b></button>
+              <a href="order.php" class="btn orderBut" >Купить за<br><b>10000$</b></a>
               <p style="position: absolute;top: 55%; left: 10%;">Осталось 5 билетов</p>
             </div>
           </div>
@@ -173,7 +173,7 @@
                 7 мар 2018, Ср
               </div>
               <div style="display: inline-block; ">
-                <p style="position: absolute; top: 15%; left: 43%;">Всего 1ч 50м</p>
+                <p style="position: absolute; top: 15%; left: 43%;color: #fd611b; letter-spacing: 1px;"><b>Всего 1ч 50м</b></p>
                 <div class="hr1" style="position: absolute;top: 25%;left: 25%;"></div>
               </div>
               <div style="display: inline-block;float: right;line-height: 5px;">
@@ -190,7 +190,7 @@
                 9 мар 2018, Пт
               </div>
               <div style="display: inline-block; ">
-                <p style="position: absolute; top: 65%; left: 43%;">Всего 1ч 50м</p>
+                <p style="position: absolute; top: 65%; left: 43%;color: #fd611b; letter-spacing: 1px;"><b>Всего 1ч 50м</b></p>
                 <div class="hr1" style="position: absolute;top: 75%;left: 25%;"></div>
               </div>
               <div style="display: inline-block;float: right;line-height: 5px;">
@@ -216,7 +216,7 @@
                 7 мар 2018, Ср
               </div>
               <div style="display: inline-block; ">
-                <p style="position: absolute; top: 15%; left: 43%;">Всего 1ч 50м</p>
+                <p style="position: absolute; top: 15%; left: 43%;color: #fd611b; letter-spacing: 1px;"><b>Всего 1ч 50м</b></p>
                 <div class="hr1" style="position: absolute;top: 25%;left: 25%;"></div>
               </div>
               <div style="display: inline-block;float: right;line-height: 5px;">
@@ -233,7 +233,7 @@
                 9 мар 2018, Пт
               </div>
               <div style="display: inline-block; ">
-                <p style="position: absolute; top: 65%; left: 43%;">Всего 1ч 50м</p>
+                <p style="position: absolute; top: 65%; left: 43%;color: #fd611b; letter-spacing: 1px;"><b>Всего 1ч 50м</b></p>
                 <div class="hr1" style="position: absolute;top: 75%;left: 25%;"></div>
               </div>
               <div style="display: inline-block;float: right;line-height: 5px;">
